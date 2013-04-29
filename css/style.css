@@ -188,25 +188,25 @@ header h3 {
 
 .speaker-avatar-wrapper {
   background:#FFF;
-  width:280px;
-  height:280px;
+  width:200px;
+  height:200px;
   padding:8px;
   border:1px solid #CCC;
   display:block;
-  border-radius:300px;
+  border-radius:200px;
 }
 
 .speaker-avatar {
   display:inline-block;
   float:left;
-  height:280px;
-  width:280px;
+  height:200px;
+  width:200px;
   margin:0;
   background-color:#CCC;
   background-repeat:no-repeat;
   background-position:center center;
   background-image:url('../img/marty.gif');
-  border-radius:300px;
+  border-radius:200px;
 }
 
 .speaker-name {
