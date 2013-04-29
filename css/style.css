@@ -188,7 +188,9 @@ header h3 {
 
 .speaker-avatar-wrapper {
   background:#FFF;
-  padding:14px;
+  width:280px;
+  height:280px;
+  padding:8px;
   border:1px solid #CCC;
   display:block;
   border-radius:100px;
@@ -197,9 +199,9 @@ header h3 {
 .speaker-avatar {
   display:inline-block;
   float:left;
-  height:100px;
-  width:100px;
-  margin-right:10px;
+  height:280px;
+  width:280px;
+  margin:0;
   background-repeat:no-repeat;
   background-position:center center;
   background-image:url('../img/marty.gif');
