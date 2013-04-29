@@ -186,6 +186,14 @@ header h3 {
   padding-bottom: 30px
 }
 
+.speaker-avatar-wrapper {
+  background:#FFF;
+  padding:14px;
+  border:1px solid #CCC;
+  display:block;
+  border-radius:100px;
+}
+
 .speaker-avatar {
   display:inline-block;
   float:left;
