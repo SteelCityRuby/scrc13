@@ -193,7 +193,7 @@ header h3 {
   padding:8px;
   border:1px solid #CCC;
   display:block;
-  border-radius:100px;
+  border-radius:300px;
 }
 
 .speaker-avatar {
@@ -202,10 +202,11 @@ header h3 {
   height:280px;
   width:280px;
   margin:0;
+  background-color:#CCC;
   background-repeat:no-repeat;
   background-position:center center;
   background-image:url('../img/marty.gif');
-  border-radius:100px;
+  border-radius:300px;
 }
 
 .speaker-name {
