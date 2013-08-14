@@ -288,6 +288,8 @@ header h3 {
   line-height: 19px;
   font-weight: 400;
   color: #222;
+  width: 450px;
+  padding-bottom: 10px;
 }
 
 .sponsorship-text li {
