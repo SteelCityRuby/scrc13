@@ -178,6 +178,10 @@ header h3 {
   border-bottom:4px solid #DACC57;
 }
 
+.action-buttons li .warn {
+  background: #a00;
+}
+
 .speaker {
   margin-bottom:40px;
 }
@@ -260,13 +264,19 @@ header h3 {
   font-size:15px;
 }
 
-.schedule tbody tr.break td.event {
+.schedule tbody tr.break td.event, td.break {
   background:#EFEFEF;
   color:#999;
   text-align:center;
   font-style:italic;
   border-top:1px solid #DADADA;
   border-bottom:1px solid #DADADA;
+}
+
+.talk {
+  font-style:italic;
+  font-size:15px;
+  line-height:2em;
 }
 
 .party {
@@ -284,15 +294,17 @@ header h3 {
 }
 
 .sponsorship-text p {
-  font-family: 'Georgia', 'Times', serif;
+  font-family:'Lusitana', 'Georgia', 'Times', serif;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
   color: #222;
+  width: 450px;
+  padding-bottom: 10px;
 }
 
 .sponsorship-text li {
-  font-family: 'Georgia', 'Times', serif;
+  font-family:'Lusitana', 'Georgia', 'Times', serif;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
@@ -303,6 +315,24 @@ header h3 {
   text-align: center;
 }
 
+.full-schedule .session:nth-child(2n) {
+  background-color: #eee;
+}
+
+.full-schedule .day {
+  margin-bottom: 100px;
+}
+
+.sponsorship-plug img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.sponsorship-plug {
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
 footer {
   width:100%;
   height:20px;
@@ -311,7 +341,7 @@ footer {
   text-transform:uppercase;
   color:#CCC;
   background:#111;
-  padding:60px 0;
+  padding:60px 0 80px;
 }
 
 footer a {
